@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/e70eeb56bb.js"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      
+    <!-- aos animation cdn  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Include Owl Carousel CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container-fluid overflow-hidden">
+        <div class="row">
+          <div class="col-12 p-0">
+            <div class="ticker bg-white">
+              <div class="title bg-org">
+                <h5 class="text-white fw-bolder fs-4 m-0 h-100 p-0">
+                  Breaking News
+                </h5>
+              </div>
+              <div class="news bg-white">
+                <marquee class="news-content fw-bold">
+                  <p class="">
+                    <i class="fa-solid fa-circle me-2 text-danger"></i>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-circle text-danger me-2"></i>
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                    quasi architecto
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-circle text-danger me-2"></i>
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                    amet, consectetur, adipisci velit, sed quia non numquam eius
+                    modi tempora incidunt ut labore et dolore magnam aliquam
+                    quaerat voluptatem. Ut enim ad minima veniam
+                  </p>
+                </marquee>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-7 m-0 p-0">
+            <div class="card card-raised card-carousel" data-aos="fade-up">
+              <div
+                id="carouselindicators"
+                class="carousel slide"
+                data-bs-ride="carousel"
+                data-bs-interval="2500">
+                <ol class="carousel-indicators">
+                  <li
+                    data-bs-target="#carouselindicators"
+                    data-bs-slide-to="0"
+                    class></li>
+                  <li
+                    data-bs-target="#carouselindicators"
+                    data-bs-slide-to="1"
+                    class="active"></li>
+                  <li
+                    data-bs-target="#carouselindicators"
+                    data-bs-slide-to="2"
+                    class></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active carousel-item-start">
+                    <img
+                      class="d-block w-100"
+                      src="https://picsum.photos/800/501"
+                      alt="First slide" />
+                    <div class="carousel-caption d-md-block">
+                      <span
+                        class="badge bg-danger mb-3 shadow p-2 fs-6 text-white">STOCK
+                        MARKET</span><br />
+                      <span class="d-flex text-center"><i
+                          class="fa-solid fa-calendar-days me-1"></i>
+                        <p class="date">13/06/2024</p>
+                        <i class="fa-solid fa-location-dot ms-3 me-1"></i>
+                        <p>USA</p>
+                      </span>
+                      <h3 class="m-0 p-0">
+                        Closing Bell: Nifty above 23,300, Sensex up 150 pts;
+                        mid, smallcaps shine
+                      </h3>
+                    </div>
+                  </div>
+                  <div
+                    class="carousel-item carousel-item-next carousel-item-start">
+                    <img
+                      class="d-block w-100"
+                      src="https://picsum.photos/800/502"
+                      alt="Second slide" />
+                    <div class="carousel-caption d-md-block">
+                      <span
+                        class="badge bg-danger mb-3 p-2 fs-6 text-white">SPORTS</span><br />
+                      <span class="d-flex text-center"><i
+                          class="fa-solid fa-calendar-days me-1"></i>
+                        <p class="date">13/06/2024</p>
+                        <i class="fa-solid fa-location-dot ms-3 me-1"></i>
+                        <p>USA</p>
+                      </span>
+                      <h3 class="m-0 p-0">India Win 3 T20 WCT20 2024 USA</h3>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      class="d-block w-100"
+                      src="https://picsum.photos/800/500"
+                      alt="Third slide" />
+                    <div class="carousel-caption d-md-block">
+                      <span
+                        class="badge bg-danger mb-3 p-2 fs-6 text-white">LIFESTYLE</span><br />
+                      <span class="d-flex text-center"><i
+                          class="fa-solid fa-calendar-days me-1"></i>
+                        <p class="date">13/06/2024</p>
+                        <i class="fa-solid fa-location-dot ms-3 me-1"></i>
+                        <p>USA</p>
+                      </span>
+                      <h3 class="m-0 p-0">
+                        Coca-Cola, rosé wine, red wine and fifty shades of
+                        yellow
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselindicators"
+                  data-bs-slide="prev">
+                  <i class="fas fa-chevron-left"></i>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselindicators"
+                  data-bs-slide="next">
+                  <i class="fas fa-chevron-right"></i>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-5">
+            <div class="row">
+              <div class="col-12 m-0 p-0 col-md-6 bg-dark">
+                <div class="row d-flex justify-content-center" data-aos="fade-right">
+                  <div class=" featcard rounded-0">
+                    <div id="featured" class="carousel slide carousel-fade"
+                      data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <div
+                            class="card border-0 border-end rounded-0 bg-dark text-white">
+                            <img class="card-img img-fluid rounded-0"
+                              style="min-height: 280px;"
+                              src="https://picsum.photos/700/636" alt>
+                            <div class="card-img-overlay d-flex linkfeat">
+                              <a href class="align-self-end">
+                                <span class="badge bg-primary">मनोरंजन</span>
+                                <h4 class="card-title fs-6 fw-bold">Taylor Swift
+                                  takes aim at 'dirty cheats' in Scooter Braun
+                                  row</h4>
+                                <p class="textfeat" style="display: none;">The
+                                  pop star claims Braun - whose clients include
+                                  Justin Bieber and Ariana Grande - bullied for
+                                  her years and said she felt "sad" and
+                                  "grossed out" that he now owns her music after
+                                  buying the label she was signed to.</p>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-12 m-0 p-0 col-md-6 bg-dark">
+                <div class="row d-flex justify-content-center" data-aos="fade-left">
+                  <div class=" featcard">
+                    <div id="featured" class="carousel slide carousel-fade"
+                      data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <div class="card border-0 bg-dark text-white">
+                            <img class="card-img img-fluid rounded-0"
+                              style="min-height: 280px;"
+                              src="https://picsum.photos/700/635" alt>
+                            <div class="card-img-overlay d-flex linkfeat">
+                              <a href class="align-self-end">
+                                <span class="badge bg-primary">शिक्षण</span>
+                                <h4 class="card-title fs-6 fw-bold">Taylor Swift
+                                  takes aim at 'dirty cheats' in Scooter Braun
+                                  row</h4>
+                                <p class="textfeat" style="display: none;">The
+                                  pop star claims Braun - whose clients include
+                                  Justin Bieber and Ariana Grande - bullied for
+                                  her years and said she felt "sad" and
+                                  "grossed out" that he now owns her music after
+                                  buying the label she was signed to.</p>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- scrolling feed news -->
+              <div class="col-12 p-0">
+                <div class="sidebar-page-container h-100" data-aos="fade-up-left">
+                  <div class="sidebar">
+                    <div class="sidebar-widget sidebar-post">
+
+                      <div class="post-inner" >
+                        <div class="carousel-inner-data">
+                          <ul class="m-0 p-0 p-2">
+                            <li>
+                              <div class="post">
+                                <div class="post-date me-5">
+                                  <p>06</p><span>July</span>
+                                </div>
+                                <div class="file-box"><span
+                                    class="badge bg-dangers p-2 text-white">शेअर मार्केट</span>
+                                </div>
+                                <h5><a href="#">Lorem Ipsum is simply dummy text
+                                    of the printing and typesetting
+                                    industry.</a></h5>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="post">
+                                <div class="post-date">
+                                  <p>25</p><span>April</span>
+                                </div>
+                                <div class="file-box"><span
+                                  class="badge bg-dangers fs-6  p-2 text-white">महराष्ट्र 
+                                  </span>
+                                </div>
+                                <h5><a href="#">Lorem Ipsum is simply dummy text
+                                    of the printing and typesetting
+                                    industry.</a></h5>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="post">
+                                <div class="post-date">
+                                  <p>25</p><span>April</span>
+                                </div>
+                                <div class="file-box"><span
+                                  class="badge bg-dangers fs-6  p-2 text-white">खेळ 
+                                  </span>
+                                </div>
+                                <h5><a href="#">Lorem Ipsum is simply dummy text
+                                    of the printing and typesetting
+                                    industry.</a></h5>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="post">
+                                <div class="post-date">
+                                  <p>25</p><span>April</span>
+                                </div>
+                                <div class="file-box"><span
+                                  class="badge bg-dangers fs-6  p-2 text-white">मनोरंजन
+                              </span>
+                                </div>
+                                <h5><a href="#">Lorem Ipsum is simply dummy text
+                                    of the printing and typesetting
+                                    industry.</a></h5>
+                              </div>
+                            </li>
+                           
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </main>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div
+              data-aos="fade-up" class="d-flex web-story shadow-lg align-items-center overflow-hidden">
+              <h3 class="ms-5 fw-bold pt-2">LATEST <span class="text-green">WEB STORIES</span> </h3>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="owl-carousel mt-5 owl-theme">
+              <a href="webstories.html">
+                <div class="item" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+     data-aos-duration="1200">
+                  <img
+                    src="https://picsum.photos/800/600?random=1"
+                    alt="Random Image 1" class="img-fluid img-thumbnail" />
+                    <div class="carousel-caption d-md-block m-0 p-0">
+                      <span
+                        class="badge bg-success mb-3 p-2 text-white">STOCK
+                        MARKET</span><br />
+                      <span class="d-flex text-center"><i
+                          class="fa-solid fa-calendar-days me-1"></i>
+                        <p class="date">13/06/2024</p>
+                       
+                      </span>
+                      <h3 class="m-0 p-0">
+                        Closing Bell: Nifty above 23,300, Sensex up 150 pts;
+                        mid, smallcaps shine
+                      </h3>
+                    </div>
+                </div>
+              </a>
+              <a href="webstories.html">
+                <div class="item" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+     data-aos-duration="1200">
+                  <img
+                    src="https://picsum.photos/800/600?random=2"
+                    alt="Random Image 2" class="img-fluid img-thumbnail" />
+                    <div class="carousel-caption d-md-block m-0 p-0">
+                      <span
+                        class="badge bg-green mb-3 p-2 text-white">STOCK
+                        MARKET</span><br />
+                      <span class="d-flex text-center"><i
+                          class="fa-solid fa-calendar-days me-1"></i>
+                        <p class="date">13/06/2024</p>
+                       
+                      </span>
+                      <h3 class="m-0 p-0">
+                        Closing Bell: Nifty above 23,300, Sensex up 150 pts;
+                        mid, smallcaps shine
+                      </h3>
+                    </div>
+                </div>
+              </a>
+              <a href="webstories.html">
+                <div class="item" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+     data-aos-duration="1200">
+                  <img
+                    src="https://picsum.photos/800/600?random=3"
+                    alt="Random Image 3" class="img-fluid img-thumbnail" />
+                    <div class="carousel-caption d-md-block m-0 p-0">
+                      <span
+                        class="badge bg-info mb-3 p-2 text-white">STOCK
+                        MARKET</span><br />
+                      <span class="d-flex text-center"><i
+                          class="fa-solid fa-calendar-days me-1"></i>
+                        <p class="date">13/06/2024</p>
+                       
+                      </span>
+                      <h3 class="m-0 p-0">
+                        Closing Bell: Nifty above 23,300, Sensex up 150 pts;
+                        mid, smallcaps shine
+                      </h3>
+                    </div>
+                </div>
+              </a>
+              <a href="webstories.html">
+                <div class="item" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+     data-aos-duration="1200">
+                  <img
+                    src="https://picsum.photos/800/600?random=4"
+                    alt="Random Image 4" class="img-fluid img-thumbnail" />
+                    <div class="carousel-caption d-md-block m-0 p-0">
+                      <span
+                        class="badge bg-org mb-3 p-2 text-white">STOCK
+                        MARKET</span><br />
+                      <span class="d-flex text-center"><i
+                          class="fa-solid fa-calendar-days me-1"></i>
+                        <p class="date">13/06/2024</p>
+                       
+                      </span>
+                      <h3 class="m-0 p-0">
+                        Closing Bell: Nifty above 23,300, Sensex up 150 pts;
+                        mid, smallcaps shine
+                      </h3>
+                    </div>
+                </div>
+              </a>
+              <a href="webstories.html">
+                <div class="item" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+     data-aos-duration="1200">
+                  <img
+                    src="https://picsum.photos/800/600?random=5"
+                    alt="Random Image 5" class="img-fluid img-thumbnail" />
+                    <div class="carousel-caption d-md-block m-0 p-0">
+                      <span
+                        class="badge bg-info mb-3 p-2 text-white">STOCK
+                        MARKET</span><br />
+                      <span class="d-flex text-center"><i
+                          class="fa-solid fa-calendar-days me-1"></i>
+                        <p class="date">13/06/2024</p>
+                       
+                      </span>
+                      <h3 class="m-0 p-0">
+                        Closing Bell: Nifty above 23,300, Sensex up 150 pts;
+                        mid, smallcaps shine
+                      </h3>
+                    </div>
+                </div>
+              </a>
+              <a href="webstories.html">
+                <div class="item" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+     data-aos-duration="1200">
+                  <img
+                    src="https://picsum.photos/800/600?random=6"
+                    alt="Random Image 6" class="img-fluid img-thumbnail" />
+                    <div class="carousel-caption d-md-block m-0 p-0">
+                      <span
+                        class="badge bg-green mb-3 p-2 text-white">STOCK
+                        MARKET</span><br />
+                      <span class="d-flex text-center"><i
+                          class="fa-solid fa-calendar-days me-1"></i>
+                        <p class="date">13/06/2024</p>
+                       
+                      </span>
+                      <h3 class="m-0 p-0">
+                        Closing Bell: Nifty above 23,300, Sensex up 150 pts;
+                        mid, smallcaps shine
+                      </h3>
+                    </div>
+                </div>
+              </a>
+              <a href="webstories.html">
+                <div class="item" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+     data-aos-duration="1200">
+                  <img
+                    src="https://picsum.photos/800/600?random=7"
+                    alt="Random Image 7" class="img-fluid img-thumbnail" />
+                    <div class="carousel-caption d-md-block m-0 p-0">
+                      <span
+                        class="badge bg-primary mb-3 p-2 text-white">STOCK
+                        MARKET</span><br />
+                      <span class="d-flex text-center"><i
+                          class="fa-solid fa-calendar-days me-1"></i>
+                        <p class="date">13/06/2024</p>
+                       
+                      </span>
+                      <h3 class="m-0 p-0">
+                        Closing Bell: Nifty above 23,300, Sensex up 150 pts;
+                        mid, smallcaps shine
+                      </h3>
+                    </div>
+                </div>
+              </a>
+              <a href="webstories.html">
+                <div class="item" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+     data-aos-duration="1200">
+                  <img
+                    src="https://picsum.photos/800/600?random=8"
+                    alt="Random Image 8" class="img-fluid img-thumbnail" />
+                    <div class="carousel-caption d-md-block m-0 p-0">
+                      <span
+                        class="badge bg-danger mb-3 p-2 text-white">STOCK
+                        MARKET</span><br />
+                      <span class="d-flex text-center"><i
+                          class="fa-solid fa-calendar-days me-1"></i>
+                        <p class="date">13/06/2024</p>
+                       
+                      </span>
+                      <h3 class="m-0 p-0">
+                        Closing Bell: Nifty above 23,300, Sensex up 150 pts;
+                        mid, smallcaps shine
+                      </h3>
+                    </div>
+                </div>
+              </a>
+              <a href="webstories.html">
+                <div class="item" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+     data-aos-duration="1200">
+                  <img
+                    src="https://picsum.photos/800/600?random=9"
+                    alt="Random Image 9" class="img-fluid img-thumbnail" />
+                    <div class="carousel-caption d-md-block m-0 p-0">
+                      <span
+                        class="badge bg-green mb-3 p-2 text-white">STOCK
+                        MARKET</span><br />
+                      <span class="d-flex text-center"><i
+                          class="fa-solid fa-calendar-days me-1"></i>
+                        <p class="date">13/06/2024</p>
+                       
+                      </span>
+                      <h3 class="m-0 p-0">
+                        Closing Bell: Nifty above 23,300, Sensex up 150 pts;
+                        mid, smallcaps shine
+                      </h3>
+                    </div>
+                </div>
+              </a>
+              <a href="webstories.html">
+                <div class="item" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+     data-aos-duration="1200">
+                  <img
+                    src="https://picsum.photos/800/600?random=10"
+                    alt="Random Image 10" class="img-fluid img-thumbnail" />
+                    <div class="carousel-caption d-md-block m-0 p-0">
+                      <span
+                        class="badge bg-green mb-3 p-2 text-white">STOCK
+                        MARKET</span><br />
+                      <span class="d-flex text-center"><i
+                          class="fa-solid fa-calendar-days me-1"></i>
+                        <p class="date">13/06/2024</p>
+                       
+                      </span>
+                      <h3 class="m-0 p-0">
+                        Closing Bell: Nifty above 23,300, Sensex up 150 pts;
+                        mid, smallcaps shine
+                      </h3>
+                    </div>
+                </div>
+              </a>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div
+              data-aos="fade-up" class="d-flex web-story shadow-lg align-items-center overflow-hidden">
+              <h3 class="ms-5 fw-bold pt-2">LATEST <span class="text-green"> NEWS</span></h3>
+            </div>
+          </div>
+            <!-- card 1 -->
+            <div class="col-md-4 mt-5" data-aos="fade-up-right" >
+              <div class="position-relative mb-3"style="box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
+                  <img class="img-fluid w-100 " src="https://static.langimg.com/thumb/110940562/maharashtra-times-110940562.jpg?imgsize=94788&width=540&height=304&resizemode=75" style="object-fit: cover";/>
+                  <div class="bg-white border border-top-0 p-4">
+                      <div class="mb-2">
+                          <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2 "href>maharashtra</a>
+                          <a class="text-body" href=""> <i class="fa-regular fa-calendar-days mx-2 "></i><small>Jun 12,2024</small></a>
+                      </div>
+
+
+                      <a class="d-block mb-3 text-black text-uppercase"> <h4  class="text-to-limit fw-bold text-justify">मान्सून'ने महाराष्ट्र सुखावला, नाशिक-जळगाव जिल्ह्यात मुसळधार पाऊस, पेरण्यांना आला वेग</h4></a>
+                      <p class="m-0 text-to-limit-p">राज्यभरात मान्सूनचे जोरदार आगमन झाले असून शेतकरी राजा आनंदात आहे. जमिनीमध्ये चांगली ओल निर्माण झाली असून खरिप हंगामातील पेरण्यांना वेग आला आहे. </p>
+                      <button type="button" class="btn btn-outline-danger fw-bold mt-2 button">Read More</button>
+
+                  </div>
+                </div>
+              </div>
+              <!-- card 2 -->
+              <div class="col-md-4 mt-5" data-aos="fade-up">
+                <div class="position-relative mb-3"style="box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
+                    <img class="img-fluid w-100 " src="https://static.langimg.com/thumb/110940562/maharashtra-times-110940562.jpg?imgsize=94788&width=540&height=304&resizemode=75" style="object-fit: cover";/>
+                    <div class="bg-white border border-top-0 p-4">
+                        <div class="mb-2">
+                            <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2 "href>maharashtra</a>
+                            <a class="text-body" href=""> <i class="fa-regular fa-calendar-days mx-2 "></i><small>Jun 12,2024</small></a>
+                        </div>
+  
+  
+                        <a class="d-block mb-3 text-black text-uppercase"> <h4 class="text-to-limit fw-bold text-justify">मान्सून'ने महाराष्ट्र सुखावला, नाशिक-जळगाव जिल्ह्यात मुसळधार पाऊस, पेरण्यांना आला वेग</h4></a>
+                        <p class="m-0 text-to-limit-p">राज्यभरात मान्सूनचे जोरदार आगमन झाले असून शेतकरी राजा आनंदात आहे. जमिनीमध्ये चांगली ओल निर्माण झाली असून खरिप हंगामातील पेरण्यांना वेग आला आहे. </p>
+                        <button type="button" class="btn btn-outline-danger fw-bold mt-2 button">Read More</button>
+  
+                    </div>
+                  </div>
+                </div>
+            <!-- card 3 -->
+            <div class="col-md-4 mt-5" data-aos="fade-up-left">
+              <div class="position-relative mb-3"style="box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
+                  <img class="img-fluid w-100 " src="https://static.langimg.com/thumb/110940562/maharashtra-times-110940562.jpg?imgsize=94788&width=540&height=304&resizemode=75" style="object-fit: cover";/>
+                  <div class="bg-white border border-top-0 p-4">
+                      <div class="mb-2">
+                          <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2 "href>maharashtra</a>
+                          <a class="text-body" href=""> <i class="fa-regular fa-calendar-days mx-2 "></i><small>Jun 12,2024</small></a>
+                      </div>
+
+
+                      <a class="d-block mb-3 text-black text-uppercase"> <h4 class="text-to-limit fw-bold text-justify">मान्सून'ने महाराष्ट्र सुखावला, नाशिक-जळगाव जिल्ह्यात मुसळधार पाऊस, पेरण्यांना आला वेग</h4></a>
+                      <p class="m-0 text-to-limit-p">राज्यभरात मान्सूनचे जोरदार आगमन झाले असून शेतकरी राजा आनंदात आहे. जमिनीमध्ये चांगली ओल निर्माण झाली असून खरिप हंगामातील पेरण्यांना वेग आला आहे. </p>
+                      <button type="button" class="btn btn-outline-danger fw-bold mt-2 button">Read More</button>
+
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div
+              data-aos="fade-up" class="d-flex web-story shadow-lg align-items-center overflow-hidden">
+              <h3 class="ms-5 fw-bold pt-2">TRANDING <span class="text-green">NEWS</span> </h3>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="card mt-5 mb-3 shadow" data-aos="fade-down-left" style="max-width:100%">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://picsum.photos/800/600" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <span
+                      class="badge bg-green mb-3 p-2 text-white">STOCK
+                      MARKET</span>
+                    </h5>
+                    <p class="card-text"><small class="text-body-secondary">Jun 12,2024</small></p>
+                    <p class="card-text fw-bold text-to-limit-p">राज्यभरात मान्सूनचे जोरदार आगमन झाले असून शेतकरी राजा आनंदात आहे. जमिनीमध्ये चांगली ओल निर्माण झाली असून खरिप हंगामातील पेरण्यांना वेग आला आहे.</p> 
+                    <button type="button" class="btn btn-outline-primary button">Read More</button>         
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- horizantal card -->
+          <div class="col-6 col-md-6">
+            <div class="card mb-3 shadow" data-aos="fade-up-left" style="max-width:100%;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://picsum.photos/800/604" class="img-fluid h-100 rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <span
+                      class="badge bg-green p-2 text-white">STOCK
+                      MARKET</span>
+                    </h5>
+                    <p class="card-text m-0 p-0"><small class="text-body-secondary">Jun 12,2024</small></p>
+                    <p class="card-text m-0 p-0 fw-bold text-to-limit">राज्यभरात मान्सूनचे जोरदार आगमन झाले असून शेतकरी राजा आनंदात आहे.</p> 
+                    <button type="button" class="btn btn-outline-primary button">Read More</button>         
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-6">
+            <div class="card mb-3 shadow" data-aos="fade-up" style="max-width:100%">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://picsum.photos/800/603" class="img-fluid h-100 rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <span
+                      class="badge bg-green p-2 text-white">STOCK
+                      MARKET</span>
+                    </h5>
+                    <p class="card-text m-0 p-0"><small class="text-body-secondary">Jun 12,2024</small></p>
+                    <p class="card-text m-0 p-0 fw-bold text-to-limit">राज्यभरात मान्सूनचे जोरदार आगमन झाले असून शेतकरी राजा आनंदात आहे.</p> 
+                    <button type="button" class="btn btn-outline-primary button">Read More</button>         
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="card mb-3 shadow" data-aos="fade-up-right" style="max-width:100%">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://picsum.photos/800/602" class="img-fluid d-none d-md-block h-100 rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <span
+                      class="badge bg-green p-2 text-white">STOCK
+                      MARKET</span>
+                    </h5>
+                    <p class="card-text m-0 p-0"><small class="text-body-secondary">Jun 12,2024</small></p>
+                    <p class="card-text m-0 p-0 fw-bold text-to-limit">राज्यभरात मान्सूनचे जोरदार आगमन झाले असून शेतकरी राजा आनंदात आहे.</p> 
+                    <button type="button" class="btn btn-outline-primary button">Read More</button>         
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="card mb-3 shadow" data-aos="fade-up" style="max-width:100%">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://picsum.photos/800/601" class="img-fluid d-none d-md-block h-100 rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <span
+                      class="badge bg-green p-2 text-white">STOCK
+                      MARKET</span>
+                    </h5>
+                    <p class="card-text m-0 p-0"><small class="text-body-secondary">Jun 12,2024</small></p>
+                    <p class="card-text m-0 p-0 fw-bold text-to-limit">राज्यभरात मान्सूनचे जोरदार आगमन झाले असून शेतकरी राजा आनंदात आहे.</p> 
+                    <button type="button" class="btn btn-outline-primary button">Read More</button>         
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+             
+        </div>
+       </div>
+    </section>
+     <!-- slice method word limit -->
+     <script>
+      function limitWords(input, limit) {
+          return input.split(' ').slice(0, limit).join(' ')+('...');
+      }
+
+      const elements = document.querySelectorAll('.text-to-limit-p'); // Select all elements with class 'fw-bold'
+
+      elements.forEach(element => {
+          element.textContent = limitWords(element.textContent, 20); // Limit each element's text to 5 words
+      });
+  </script>
+  <script>
+    function limitWords(input, limit) {
+        return input.split(' ').slice(0, limit).join(' ')+('...');
+    }
+
+    const elements2 = document.querySelectorAll('.text-to-limit'); // Select all elements2 with class 'fw-bold'
+
+    elements2.forEach(element => {
+        element.textContent = limitWords(element.textContent, 7); // Limit each element's text to 5 words
+    });
+</script>
+
+    <!-- aos animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        disable: function() {
+        var maxWidth = 768;
+        return window.innerWidth <= maxWidth;
+      }
+      });
+    </script>
+    <!-- Owl Carousel initialization -->
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          dots:false,
+          autoplay: true,
+          autoplayTimeout: 2000,
+          autoplayHoverPause: true,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            600: {
+              items: 3,
+            },
+            1000: {
+              items: 5,
+            },
+          },
+        });
+      });
+    </script>
+
+    <script>
+      $(function () {
+        var tickerLength = $(".carousel-inner-data ul li").length;
+        var tickerHeight = $(".carousel-inner-data ul li").outerHeight();
+        $(".carousel-inner-data ul li:last-child").prependTo(
+          ".carousel-inner-data ul"
+        );
+        $(".carousel-inner-data ul").css("marginTop", -tickerHeight);
+
+        function moveTop() {
+          $(".carousel-inner-data ul").animate(
+            {
+              top: -tickerHeight,
+            },
+            600,
+            function () {
+              $(".carousel-inner-data ul li:first-child").appendTo(
+                ".carousel-inner-data ul"
+              );
+              $(".carousel-inner-data ul").css("top", "");
+            }
+          );
+        }
+
+        setInterval(function () {
+          moveTop();
+        }, 3000);
+      });
+    </script>
+
+    <script>
+      let dateObj = new Date();
+      let myDate =
+        dateObj.getUTCDate() +
+        "/" +
+        (dateObj.getMonth() + 1) +
+        "/" +
+        dateObj.getUTCFullYear();
+      document.getElementsByClassName("date").innerHTML = myDate;
+    </script>
+     <!-- aos animation cdn  -->
+     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <!-- Include Bootstrap and Owl Carousel JavaScript files -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  </body>
+</html>
